@@ -132,29 +132,32 @@ public class OutOfStockException extends Exception {
         super(message);
     }
 }
-Project Structure
-The project consists of the following classes:
 
+-- Project Structure
+The project consists of the following classes:
 Product.java - Contains product details like ID, name, price, stock quantity, and discount calculations.
 Order.java - Manages customer orders.
 OrderDetail.java - Represents a product and quantity in an order.
 OutOfStockException.java - A custom exception for handling out-of-stock scenarios.
 OrderSystem.java - A class to simulate placing orders, updating stock, and calculating totals.
-How to Use
+
+-- How to Use
 Clone the repository:
 
 git clone https://github.com/Aomsh2000/Amazon.sa_Java_Assignment2Week2.git
+
 Compile and run the program:
 
 Open the project in your IDE (e.g., IntelliJ IDEA, Eclipse).
 Run the OrderSystem class to start interacting with the system.
-Example Usage:
 
+-- Example Usage:
 Create products and orders in the OrderSystem class.
 Add items to an order and display the total amount.
 Handle out-of-stock conditions using the OutOfStockException.
-Contributing
+
+-- Contributing
 Feel free to open issues or submit pull requests if you'd like to contribute to the project.
 
-Conclusion
+-- Conclusion
 This project is a simple demonstration of applying key OOP principles in Java. The focus is on maintaining clean, modular code that adheres to OOP concepts like inheritance, polymorphism, abstraction, and encapsulation.
